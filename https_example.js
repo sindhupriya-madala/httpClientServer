@@ -5,8 +5,9 @@ var options = {
                 host: "www.example.org",
                 path: '/'
               };
-var callback = function() {
+var callback = function(responce) {
   console.log("In responce handler callback!");
+  console.log("responce is : ", responce);
 }
 
 console.log("I'm about to make the request");
